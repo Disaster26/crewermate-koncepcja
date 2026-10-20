@@ -80,8 +80,6 @@ h1 em,h2 em{font-style:italic;color:var(--czer)}
 .u div{padding:18px 20px 20px;border-top:4px solid var(--czer)}
 .u h3{font-size:22px;margin-bottom:6px}
 .u p{margin:0;color:var(--szary);font-size:15px}
-.u-duza{grid-row:span 2}
-.u-duza img{aspect-ratio:auto;flex:1;min-height:260px}
 
 /* kalkulator */
 .kalk{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:28px;align-items:start}
@@ -164,7 +162,6 @@ input[type=range]{width:100%;accent-color:var(--czer)}
 @media (max-width:1060px){
   .menu{display:none}.ham{display:inline-flex}.gora-akcje{margin-left:auto}
   .uslugi{grid-template-columns:repeat(2,minmax(0,1fr))}
-  .u-duza{grid-row:auto;grid-column:1/3}.u-duza img{aspect-ratio:16/8}
   .kalk,.poj-in,.kontakt-in{grid-template-columns:minmax(0,1fr);gap:28px}
   .pakiety{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
   .opinie{grid-template-columns:minmax(0,1fr)}
@@ -181,7 +178,7 @@ input[type=range]{width:100%;accent-color:var(--czer)}
   .hero-foto img{object-position:70% 30%}
   .hero::before{background:linear-gradient(180deg,rgba(17,23,42,.25) 0%,rgba(17,23,42,.78) 38%,rgba(17,23,42,.96) 66%)}
   .ocena{font-size:12.5px;padding:6px 12px;align-self:flex-start}
-  .hero h1{font-size:clamp(40px,12vw,54px);margin-top:14px}
+  .hero h1{font-size:clamp(30px,9.4vw,52px);margin-top:14px}
   .hero .lead{font-size:15.5px;margin-top:12px}
   .hero-cta{margin-top:20px}
   .hero-cta .btn{flex:1 1 100%}
@@ -189,7 +186,6 @@ input[type=range]{width:100%;accent-color:var(--czer)}
   .fakty{gap:12px;justify-content:space-between;margin-top:20px;padding-top:16px}
   .fakty b{font-size:20px}.fakty span{font-size:12px;line-height:1.3}
   .uslugi{grid-template-columns:minmax(0,1fr);gap:12px}
-  .u-duza{grid-column:auto}
   .pole.dwa{grid-template-columns:minmax(0,1fr)}
   .pakiety{grid-template-columns:minmax(0,1fr);gap:20px}
   .poj-pak{grid-template-columns:minmax(0,1fr) minmax(0,1fr) minmax(0,1fr);gap:6px}
